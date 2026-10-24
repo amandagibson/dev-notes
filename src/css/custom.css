@@ -28,3 +28,19 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.docMainContainer[class*='docMainContainer'] > .container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--ifm-navbar-height) - 180px);
+}
+
+.generatedIndexPage[class*='generatedIndexPage'] {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.generatedIndexPage[class*='generatedIndexPage'] > footer {
+  margin-top: auto;
+}
