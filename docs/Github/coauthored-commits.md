@@ -1,11 +1,17 @@
 ---
-sidebar_label: "Co-author commits"
+sidebar_label: "Co-authored commits"
 sidebar_position: 1
 ---
 
-# How to co-author commits:
+# Co-authored commits
 
-## Steps
+A co-authored commit credits more than one person for the same change. You add a `Co-authored-by` trailer at the end of the commit message, and GitHub shows every listed author on the commit and counts it toward their contributions.
+
+## Why?
+
+Pair programming, mob sessions, and squashed PRs with several contributors all produce commits that would otherwise credit only one person. Co-authoring keeps the history honest and gives everyone proper credit. It also makes it easier to see who to ask about a piece of code later.
+
+## How?
 
 1. Start a multi-line commit message. Don't type the closing `"` yet. Press Enter and your shell will move to a new line.
 2. Leave one blank line between the commit message and the co-author(s).
