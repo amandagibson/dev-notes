@@ -1,5 +1,5 @@
 ---
-sidebar_label: "Protected Branches"
+sidebar_label: "Protected branches"
 sidebar_position: 2
 ---
 
@@ -20,18 +20,18 @@ Rule of thumb: protect any branch you’d be unhappy to see broken, and turn on 
 
 ## How?
 
-Open the repository and click Settings.
-In the left menu, click Branches.
-Next to “Branch protection rules,” click Add rule.
-Under “Branch name pattern,” enter the branch to protect (e.g. `main`). Patterns work too, so `release/*` covers every branch starting with `release/`.
+1. Open the repository and click Settings.
+2. In the left menu, click Branches.
+3. Next to “Branch protection rules,” click Add rule.
+4. Under “Branch name pattern,” enter the branch to protect (e.g. `main`). Patterns work too, so `release/*` covers every branch starting with `release/`.
 
-Choose your rules. A sensible baseline for a team are:
+5. Choose your rules. A sensible baseline for a team are:
 
 - Require a pull request before merging, with at least one approval
 - Require linear history, if your team prefers rebasing or squashing
 - Leave force pushes and deletions off
 
-Click create.
+6. Click create.
 
 :::tip[Notes]
 
